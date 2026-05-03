@@ -51,15 +51,6 @@ export default function Login() {
         <div style={{ textAlign: "center", marginBottom: 24 }}>
           <span className="blockchain-badge">⛓️ Secured by Blockchain</span>
         </div>
-
-        {/* Demo Credentials */}
-        <div className="alert alert-info" style={{ fontSize: 12 }}>
-          <span>💡</span>
-          <div>
-            <strong>Demo Admin:</strong> admin / Admin@123 &nbsp;|&nbsp; admin2 / Admin@456
-          </div>
-        </div>
-
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label className="form-label">Username or Email</label>
